@@ -6,7 +6,7 @@ This is a **starter template** for building web apps with **React, Vite, Tailwin
 
 ## client
 
-To create the `client` folder - our React frontend - we just ran this command inside the project, choosing "React" as the framework:
+To create the `client/` folder - our React frontend - we ran this command inside the project, choosing "React" as the framework:
 
 `npm create vite@latest`
 
