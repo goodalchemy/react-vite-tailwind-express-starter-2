@@ -2,21 +2,19 @@
 
 ## Overview
 
-This is a starter template for building web apps with **React, Vite, TailwindCSS, and Express**. It provides flexibility without the constraints of opinionated meta-frameworks like **Next.js** or **Remix**, which _these days_ seem increasingly focused on adding unnecessary complexity and overhead, while taking more control over your project’s structure and runtime.
+A flexible starter template for building web apps with React, Vite, TailwindCSS, and Express—without the complexity of meta-frameworks like Next.js or Remix. This setup prioritizes simplicity, control, and performance, making it ideal for SaaS apps, dashboards, and internal tools.
 
-To be clear, frameworks like Next.js and Remix still make sense for **marketing sites, blogs, and content-driven projects**, where features like static generation, server-side rendering, and built-in routing provide real benefits. But for **web apps**—especially SaaS projects, dashboards, and internal tools—trimming back to the basics offers **more control, faster builds, fewer dependencies, and a simpler developer experience**.
-
-With this setup, you can seamlessly serve both your frontend and API from a single **Express server**, making deployment and maintenance much simpler.
+While Next.js and Remix shine for content-driven sites, their abstractions can add unnecessary overhead for web apps. This template keeps things lean: a single Express server seamlessly serving both frontend and API for easier deployment and maintenance.
 
 ## 🎵 Back to the Basics of React
 
-Modern React development has become increasingly complex, with meta-frameworks, build tools, and abstractions that often add more overhead than value. While these tools have their place, sometimes you just want to **get back to the basics**—a straightforward, flexible setup that lets you build your app _your way_ without unnecessary constraints.
+Modern React development often feels overcomplicated. While abstractions have their place, sometimes you just need a simple, flexible setup without unnecessary constraints.
 
-In the spirit of Waylon Jennings’ _"Luckenbach, Texas"_, this template is all about simplifying things:
+In the spirit of Waylon Jennings’ _Luckenbach, Texas_:
 
-> _Maybe it’s time we got back to the basics of love._
+> Maybe it’s time we got back to the basics of love.
 
-So let’s strip away the bloat, keep it simple, and focus on what really matters: building great React apps with **Vite, TailwindCSS, and Express**—without all the extra noise.
+Let’s strip away the bloat and focus on what matters: building great React apps with Vite, TailwindCSS, and Express—without the extra noise.
 
 ## client
 
