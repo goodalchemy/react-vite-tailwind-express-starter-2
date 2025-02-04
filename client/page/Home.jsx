@@ -6,7 +6,6 @@ export default function Home() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    console.log(window.location.origin);
     fetch(`${BASE_URL}/api/hello`)
       .then((res) => res.json())
       .then((data) => setMessage(data.message));
