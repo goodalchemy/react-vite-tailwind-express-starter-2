@@ -2,6 +2,7 @@
   "name": "react-vite-tailwind-express-starter",
   "version": "1.0.0",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
     "dev": "concurrently \"cd client && npm install && npm run build && npm run dev\" \"node index.js\"",
     "start": "npm run build && node index.js",
