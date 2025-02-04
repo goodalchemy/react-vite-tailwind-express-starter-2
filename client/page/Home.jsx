@@ -10,7 +10,12 @@ export default function Home() {
           <b>React/Vite/Tailwind/Express project.</b>
         </p>
         <p className="mt-4">
-          <a className="text-blue-500 hover:underline" href="">
+          <a
+            className="text-blue-500 hover:underline"
+            href="https://github.com/goodalchemy/react-vite-tailwind-express-starter"
+            target="_blank"
+            rel="noreferrer"
+          >
             Documentation
           </a>
         </p>
