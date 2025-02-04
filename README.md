@@ -17,7 +17,7 @@ This is a **starter template** for building web apps with **React, Vite, Tailwin
 Define routes under `src/routes/`. Example:
 
 ```js
-// src/routes/example.js
+// src/routes/hello.js
 const express = require("express");
 const router = express.Router();
 
