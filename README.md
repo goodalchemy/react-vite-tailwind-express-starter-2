@@ -4,13 +4,13 @@
 
 This is a **starter template** for building web apps with **React, Vite, TailwindCSS, and Express**. It provides flexibility without the constraints of frameworks like Next.js or Remix. Serve your frontend and API from a single Express server for easier deployment.
 
-## Client
+## client
 
-To create the `client` folder - your React frontend - just run this command in your project, choosing "React" as your framework:
+To create the `client` folder - our React frontend - we just ran this command inside the project, choosing "React" as the framework:
 
 `npm create vite@latest`
 
-We recommend choosing **Javascript + SWC** during setup as well.
+We also chose **Javascript + SWC** during setup as well, which we recommend.
 
 ## Development
 
