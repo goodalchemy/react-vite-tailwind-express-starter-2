@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ivy: #1c4044;
+  --color-moss: #004d49;
+  --color-clover: #058466;
+  --color-eggshell: #f9f8f3;
+}

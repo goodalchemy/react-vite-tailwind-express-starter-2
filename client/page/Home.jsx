@@ -1,0 +1,20 @@
+import { Layout } from "../components/Layout";
+
+export default function Home() {
+  return (
+    <Layout>
+      <div>
+        <h1 className="mt-24 mb-4 text-3xl font-bold">Home</h1>
+        <p>
+          This is a starter template for a{" "}
+          <b>React/Vite/Tailwind/Express project.</b>
+        </p>
+        <p className="mt-4">
+          <a className="text-blue-500 hover:underline" href="">
+            Documentation
+          </a>
+        </p>
+      </div>
+    </Layout>
+  );
+}

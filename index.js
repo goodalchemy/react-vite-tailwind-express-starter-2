@@ -1,7 +1,9 @@
 const express = require("express");
 const path = require("path");
-const bodyParser = require("body-parser");
 const cors = require("cors");
+
+const app = express();
+const PORT = process.env.PORT || 3000;
 
 const whitelist = [
   "http://localhost:3000",
@@ -9,9 +11,6 @@ const whitelist = [
   "http://localhost:5000",
   "http://localhost:5173",
 ];
-
-const app = express();
-const PORT = process.env.PORT || 3000;
 
 const corsOptions = {
   origin: function (origin, callback) {
@@ -25,15 +24,22 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
-
-app.use(bodyParser.json());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 const clientPath = path.join(__dirname, "./client/dist");
 app.use(express.static(clientPath));
 
+const helloRoute = require("./src/routes/hello");
+app.use("/api/hello", helloRoute);
+
 app.get("*", (req, res) => {
-  const indexPath = path.join(clientPath, "index.html");
-  res.sendFile(indexPath);
+  res.sendFile(path.join(clientPath, "index.html"));
+});
+
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).send("Something broke!");
 });
 
 app.listen(PORT, () => {
