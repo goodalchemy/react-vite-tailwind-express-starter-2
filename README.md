@@ -2,7 +2,11 @@
 
 ## Overview
 
-This is a starter template for building web apps with React, Vite, TailwindCSS, and Express. It provides flexibility without the constraints of opinionated meta-frameworks like Next.js or Remix, which these days seem hellbent on adding unnecessary complexity and overhead, while taking more control over your project’s structure and runtime. With this setup, you can seamlessly serve both your frontend and API from a single Express server, making deployment and maintenance much simpler.
+This is a starter template for building web apps with **React, Vite, TailwindCSS, and Express**. It provides flexibility without the constraints of opinionated meta-frameworks like **Next.js** or **Remix**, which _these days_ seem increasingly focused on adding unnecessary complexity and overhead, while taking more control over your project’s structure and runtime.
+
+To be clear, frameworks like Next.js and Remix still make sense for **marketing sites, blogs, and content-driven projects**, where features like static generation, server-side rendering, and built-in routing provide real benefits. But for **web apps**—especially SaaS projects, dashboards, and internal tools—trimming back to the basics offers **more control, faster builds, fewer dependencies, and a simpler developer experience**.
+
+With this setup, you can seamlessly serve both your frontend and API from a single **Express server**, making deployment and maintenance much simpler.
 
 ## 🎵 Back to the Basics of React
 
