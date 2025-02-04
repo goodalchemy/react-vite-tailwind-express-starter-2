@@ -35,7 +35,7 @@ module.exports = router;
 - **Heroku** – Use a single **Procfile**
 - **Railway, Fly.io, Render.com**
 
-As of right now, we highly recommend Render.com for their ease of use, reliability, and strong range of offerings - especially their Postgres plans. This is not an ad, we really just like them.
+As of right now, we highly recommend Render.com for their ease of use, reliability, and strong range of offerings - especially their Postgres plans. This is not an ad, we just really like them.
 
 ## Conclusion
 
