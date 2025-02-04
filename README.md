@@ -4,6 +4,14 @@
 
 This is a **starter template** for building web apps with **React, Vite, TailwindCSS, and Express**. It provides flexibility without the constraints of frameworks like Next.js or Remix. Serve your frontend and API from a single Express server for easier deployment.
 
+## Client
+
+To create the `client` folder - your React frontend - just run this command in your project, choosing "React" as your framework:
+
+`npm create vite@latest`
+
+We recommend choosing **Javascript + SWC** during setup as well.
+
 ## Development
 
 We use **concurrently** in development to run both the frontend and server simultaneously. During development, the full app (frontend + server) is available at localhost:3000, while the frontend alone runs at localhost:5173 with hot module reloading. If you're only making frontend or styling changes, localhost:5173 is the better option for a faster workflow.
