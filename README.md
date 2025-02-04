@@ -43,6 +43,10 @@ router.get("/hello", (req, res) => {
 module.exports = router;
 ```
 
+On the homepage - `/client/page/Home.js` - you will see an example of making a call to your server API from the frontend.
+
+Going forward, you will likely want to enhance these fetches with support from packages like **zustand** for global state management and **@tanstack/react-query** for caching/refetching.
+
 ### Deployment Options
 
 - **VPS (DigitalOcean, Linode, AWS EC2)**
