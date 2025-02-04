@@ -10,6 +10,7 @@ This is a **starter template** for building web apps with **React, Vite, Tailwin
 - **Unified Full-Stack Setup** – Serve frontend and API from the same Express server.
 - **Efficient Development** – Vite ensures fast builds and hot reloading.
 - **TailwindCSS for Styling** – Quickly create responsive designs.
+- **No TypeScript** – This project intentionally avoids TypeScript because it adds unnecessary complexity to small and medium-sized projects. JavaScript is sufficient for this scale, allowing for faster iteration, simpler builds, and fewer dependencies. TypeScript's strict typing can introduce overhead that outweighs its benefits when working on agile, lightweight codebases. You can add it in yourself if you find it necessary.
 - **Simple Deployment** – Easily deploy to a single server or separate services as needed.
 
 ## API Development with Express
