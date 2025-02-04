@@ -16,7 +16,7 @@ So let’s strip away the bloat, keep it simple, and focus on what really matter
 
 ## client
 
-To create the `client/` folder - our React frontend - we ran this command inside the project, choosing "React" as the framework:
+To create the `client/` folder - our React frontend - we ran the Vite setup command inside the project, choosing "React" as the framework:
 
 `npm create vite@latest`
 
