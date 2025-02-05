@@ -1,5 +1,5 @@
 import { Layout } from "../components/Layout";
-import { useStore } from "../store";
+import { useStore } from "../../store";
 
 export default function Home() {
   const { message } = useStore();

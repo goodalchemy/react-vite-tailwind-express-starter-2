@@ -1,7 +1,7 @@
 import { Header } from "./Header";
-import { useStore } from "../store";
+import { useStore } from "../../store";
 import { useEffect } from "react";
-import { BASE_URL } from "../constants";
+import { BASE_URL } from "../../constants";
 
 export const Layout = ({ children }) => {
   const { setMessage } = useStore();

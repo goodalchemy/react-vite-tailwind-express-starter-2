@@ -33,11 +33,11 @@ app.use(express.static(clientPath));
 // const checkAuth = require("./middleware/checkAuth");
 
 const helloRoute = require("./routes/hello");
-const loginRoute = require("./routes/auth/login");
-const signupRoute = require("./routes/auth/signup");
+// const loginRoute = require("./routes/auth/login");
+// const signupRoute = require("./routes/auth/signup");
 app.use("/api/hello", helloRoute);
-app.use("/api/auth/login", loginRoute);
-app.use("/api/auth/signup", signupRoute);
+// app.use("/api/auth/login", loginRoute);
+// app.use("/api/auth/signup", signupRoute);
 
 // const secretUserData = require("./routes/secretUserData");
 // app.use("/api/user", checkAuth, secretUserData);
