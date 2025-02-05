@@ -1,3 +1,8 @@
+const router = require("express").Router();
+const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken");
+const pool = require("../../lib/db");
+
 router.post("/signup", async (req, res) => {
   try {
     const { email, password } = req.body;

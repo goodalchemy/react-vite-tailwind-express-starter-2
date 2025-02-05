@@ -31,11 +31,11 @@ const clientPath = path.join(__dirname, "../client/dist");
 app.use(express.static(clientPath));
 
 const helloRoute = require("./routes/hello");
+const loginRoute = require("./routes/auth/login");
+const signupRoute = require("./routes/auth/signup");
 app.use("/api/hello", helloRoute);
-
-app.get("*", (req, res) => {
-  res.sendFile(path.join(clientPath, "index.html"));
-});
+app.use("/api/auth/login", loginRoute);
+app.use("/api/auth/signup", signupRoute);
 
 app.use((err, req, res, next) => {
   console.error(err.stack);
