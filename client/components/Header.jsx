@@ -9,7 +9,7 @@ export const Header = () => {
             to="/"
             className="text-lg font-display font-bold tracking-wide hover:text-eggshell transition-colors"
           >
-            Luckenbach
+            Luckenbach 2
           </Link>
 
           <nav className="h-full">
