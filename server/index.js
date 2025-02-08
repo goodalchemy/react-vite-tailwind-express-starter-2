@@ -42,6 +42,10 @@ app.use("/api/hello", helloRoute);
 // const secretUserData = require("./routes/secretUserData");
 // app.use("/api/user", checkAuth, secretUserData);
 
+app.get("*", (req, res) => {
+  res.sendFile(path.join(clientPath, "index.html"));
+});
+
 app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).send("Something broke!");
